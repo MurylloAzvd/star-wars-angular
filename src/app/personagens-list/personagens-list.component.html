@@ -1,0 +1,14 @@
+
+<mat-selection-list [multiple]="false">
+  <mat-list-option *ngFor="let personagem of personagens" [value]="personagem" (click)="showDetails(personagem)">
+    {{personagem.name}}
+  </mat-list-option>
+</mat-selection-list>
+
+<mat-paginator [length]="personagensCount"
+                 [pageSize]="10"
+                 [pageSizeOptions]="[10]"
+                 (page)="pageData($event)">
+</mat-paginator>
+
+<!-- <button (click)="show()">ccccc</button> -->

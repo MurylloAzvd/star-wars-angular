@@ -17,7 +17,7 @@ export interface Personagem {
   gender: string;
   homeworld: string;
   films: string[];
-  filmsData: any[];
+  filmsData: string[];
   species: string[];
   vehicles: string[];
   starships: string[];

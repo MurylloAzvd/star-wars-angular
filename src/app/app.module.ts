@@ -16,13 +16,17 @@ import {MatDialogModule} from '@angular/material/dialog';
 import { CommonModule } from '@angular/common';
 import { NavbarComponent } from './navbar/navbar.component';
 import {MatToolbarModule} from '@angular/material/toolbar';
+import { NavesListComponent } from './naves-list/naves-list.component';
+import { NaveDetailsComponent } from './nave-details/nave-details.component';
 
 @NgModule({
-  declarations: [
+  declarations: [		
     AppComponent,
     PersonagensListComponent,
     PersonagemDetailsComponent,
     NavbarComponent,
+      NavesListComponent,
+      NaveDetailsComponent
    ],
   imports: [
     BrowserModule,
